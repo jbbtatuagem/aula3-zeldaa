@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Nanum+Myeongjo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Macondo&family=Nanum+Myeongjo&display=swap');
+
+
+
+
+*{
+	margin: 0; /*sempre zerar tudo antes de começar*/
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif, helvetica, verdana; 
+	font-size: 14px; /*tamanho da fonte*/
+	margin: 5% 10%;
+	/*background-color: #ADD8E6;*/
+	background-image: url(https://cdn.pixabay.com/photo/2022/05/31/00/56/sky-7232494_960_720.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+p {
+	font-family: "Macondo", cursive;
+ 	font-weight: 400;
+ 	font-style: normal;
+	font-size: 2em;
+	margin: 3%;
+	text-align: justify;
+	text-indent: 150px;
+}
+
+img {
+	width: 300px;
+	height: 300px;
+	border:  dotted 0px #4682B4;
+	border-radius: 100%;
+	/*box-shadow: 10px 10px 30px #FFFFFF;
+	filter: sepia(60%);
+	filter:  hue-rotate(320deg);*/
+	filter: sepia(80%);
+}
+
+img:hover{
+filter: grayscale(0%);
+border-radius: 100%;
+transform: scale(1.1);
+transform: rotate(180deg);
+}
+
+h1:hover {
+color: #FFFFFF;
+transform: rotate(180deg);
+}
+
+h1 {
+	font-family: "Jacquard 12", system-ui;
+	font-size: 90px;
+    font-weight: 400;
+    font-style: normal;
+	text-align: center;
+	color: #FFFFFF;
+	
+}
+
+div {
+	background-color: #FFFFFF;
+	border-radius: 5% ;
+}
+
+p b {
+	color: #FFFFFF;
+}
